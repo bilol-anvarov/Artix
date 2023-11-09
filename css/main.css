@@ -55,6 +55,20 @@ html{
 jdiv{
   display: none !important;
 }
+.section-top-border .progress-table{
+  padding: 10px 30px;
+  border-radius: 40px;
+}
+.progress-table .table-row{
+  justify-content: space-between;
+}
+.progress-table .table-row .visit{
+  justify-content: end;
+}
+.table-row .visit a{
+  border-radius: 30px;
+  text-decoration: none !important;
+}
 ol, ul {
   margin: 0;
   padding: 0;
