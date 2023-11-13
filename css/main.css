@@ -52,6 +52,7 @@ html{
   scroll-behavior: smooth;
 }
 
+
 jdiv{
   display: none !important;
 }
@@ -75,6 +76,7 @@ jdiv{
 ol, ul {
   margin: 0;
   padding: 0;
+  padding-left: 15px !important;
 }
 
 select {
@@ -1070,11 +1072,11 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .progress-table .country {
-  width: 28.07%;
+  width: 40%;
 }
 
 .progress-table .visit {
-  width: 19.74%;
+  width: 35%;
 }
 
 .progress-table .percentage {
