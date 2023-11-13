@@ -1056,19 +1056,17 @@ h1, h2, h3, h4, h5, h6 {
   border-left: 2px solid #3e69fe;
 }
 
-.progress-table-wrap {
-  overflow-x: scroll;
-}
 
 .progress-table {
   background: #f9f9ff;
   padding: 15px 0px 30px 0px;
-  min-width: 800px;
+  min-width: 350px;
+  width: 100%;
 }
 
 .progress-table .serial {
   width: 11.83%;
-  padding-left: 30px;
+  /* padding-left: 30px; */
 }
 
 .progress-table .country {
@@ -2562,6 +2560,7 @@ footer .copy-right-text a {
 
 .section-top-border {
   padding: 70px 0;
+  width: 100%;
   border-top: 1px dotted #eee;
 }
 
