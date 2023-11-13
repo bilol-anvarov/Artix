@@ -55,15 +55,18 @@ html{
 jdiv{
   display: none !important;
 }
+.banner-area{
+  background-color: white;
+  color: black !important;
+}
 .section-top-border .progress-table{
   padding: 10px 30px;
-  border-radius: 40px;
+  border-radius: 2  0px;
 }
-.progress-table .table-row{
-  justify-content: space-between;
-}
+
 .progress-table .table-row .visit{
   justify-content: end;
+  margin-left: auto;
 }
 .table-row .visit a{
   border-radius: 30px;
@@ -1876,7 +1879,7 @@ header {
 }
 
 .menu-bar span {
-  color: #fff;
+  color: #000000;
   font-size: 24px;
 }
 
@@ -1916,7 +1919,7 @@ nav a {
   font-size: 12px;
   font-weight: 500;
   text-transform: uppercase;
-  color: #fff;
+  color: #000000;
   margin: 0 25px;
   display: inline-block;
 }
@@ -1956,7 +1959,7 @@ body {
 
 
 
-.p1-gradient-bg, .primary-btn:after, .banner-area, .featured-area, .story-area, .footer-social a:after {
+.p1-gradient-bg, .primary-btn:after, .featured-area, .story-area, .footer-social a:after {
   background-image: -moz-linear-gradient(85deg, #48A842 80.83%, #82DC5A 8.65%);
   background-image: -webkit-linear-gradient(85deg, #48A842 20%, #82DC5A 68.65%);
   background-image: -ms-linear-gradient(85deg, #48A842 80.83%, #82DC5A 8.65%);
@@ -1987,8 +1990,8 @@ body {
   padding: 0 30px;
   border-radius: 20px;
   background: transparent;
-  border: 1px solid #fff;
-  color: #222222;
+  border: 1px solid #000000;
+  color: black;
   display: inline-block;
   font-weight: 500;
   position: relative;
@@ -2004,7 +2007,7 @@ body {
 }
 
 .primary-btn span {
-  color: #fff;
+  color: #000000;
   position: relative;
   z-index: 2;
 }
@@ -2053,6 +2056,7 @@ body {
 
 .banner-area .banner-content {
   margin-top: 50px;
+  z-index: 2;
 }
 
 .banner-area .banner-content h1 {
@@ -2074,8 +2078,8 @@ body {
   right: 0;
   width: 50%;
   height: 90%;
-  background: url(../images/hero-bg.png) no-repeat bottom right/contain;
-  z-index: 2;
+  background: url(../images/Group385.png) no-repeat bottom right/contain;
+  
 }
 
 @media (max-width: 575px) {
