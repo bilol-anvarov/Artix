@@ -75,7 +75,6 @@ jdiv{
 ol, ul {
   margin: 0;
   padding: 0;
-  list-style: none;
 }
 
 select {
@@ -1169,11 +1168,10 @@ h1, h2, h3, h4, h5, h6 {
 
 .unordered-list li {
   position: relative;
-  padding-left: 30px;
   line-height: 1.82em !important;
 }
 
-.unordered-list li:before {
+/* .unordered-list li:before {
   content: "";
   position: absolute;
   width: 14px;
@@ -1183,7 +1181,7 @@ h1, h2, h3, h4, h5, h6 {
   top: 4px;
   left: 0;
   border-radius: 50%;
-}
+} */
 
 .ordered-list {
   margin-left: 30px;
@@ -2486,7 +2484,7 @@ body {
 
 footer {
   border-top: 1px solid rgba(255, 255, 255, 0.3);
-  margin-top: 100px;
+  margin-top: 40px;
   padding: 15px 0;
 }
 
